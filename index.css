@@ -1,0 +1,13 @@
+/*
+  Minimal stylesheet.
+  Tailwind is loaded via CDN in index.html. This file exists to avoid missing-file warnings
+  and to provide a place for small global tweaks.
+*/
+
+html, body { height: 100%; }
+
+/* Improves font rendering in most browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
